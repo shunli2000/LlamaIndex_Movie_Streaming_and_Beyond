@@ -38,8 +38,6 @@ user_preferences.json (User data):
 ```
 #### Code
 ```python
-from llama_index import JSONReader, VectorStoreIndex
-
 # Load advertising data and user preferences from JSON files
 ad_loader = JSONReader().load_data("ad_data.json")
 user_loader = JSONReader().load_data("user_preferences.json")
@@ -80,8 +78,6 @@ movie_metadata.json (Movie descriptions and metadata):
 ```
 #### Code:
 ```python
-from llama_index import JSONReader, VectorStoreIndex
-
 # Load movie metadata for video search
 movie_loader = JSONReader().load_data("movie_metadata.json")
 
@@ -118,8 +114,6 @@ user_watch_history.json (User watch history):
 
 #### Code:
 ```python
-from llama_index import JSONReader, VectorStoreIndex
-
 # Load user reviews and watch history from JSON files
 reviews_loader = JSONReader().load_data("user_reviews.json")
 history_loader = JSONReader().load_data("user_watch_history.json")

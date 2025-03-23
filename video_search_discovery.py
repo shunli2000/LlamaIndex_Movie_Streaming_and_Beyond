@@ -3,7 +3,8 @@
 import os
 os.environ["OPENAI_API_KEY"] = "YOUR-API-KEY"
 
-from llama_index import JSONReader, VectorStoreIndex
+from llama_index.core import VectorStoreIndex
+from llama_index.readers.json import JSONReader
 
 # Load movie metadata for video search
 movie_loader = JSONReader().load_data("movie_metadata.json")

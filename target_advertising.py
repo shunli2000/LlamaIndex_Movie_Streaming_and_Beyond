@@ -3,7 +3,8 @@ import os
 os.environ["OPENAI_API_KEY"] = "YOUR-API-KEY"
 
 
-from llama_index import JSONReader, VectorStoreIndex
+from llama_index.core import VectorStoreIndex
+from llama_index.readers.json import JSONReader
 
 # Load advertising data and user preferences from JSON files
 ad_loader = JSONReader().load_data("ad_data.json")
