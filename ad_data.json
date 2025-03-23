@@ -1,0 +1,6 @@
+[
+    {"ad_id": 0, "product": "Movie Trailer: The Lion King", "target_genres": ["animation", "family"]},
+    {"ad_id": 1, "product": "Movie Trailer: Avengers", "target_genres": ["action", "sci-fi"]},
+    {"ad_id": 2, "product": "Movie Trailer: The Notebook", "target_genres": ["drama", "romance"]}
+  ]
+  
